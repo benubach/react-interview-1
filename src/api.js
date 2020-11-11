@@ -1,7 +1,7 @@
 const wait = ms => new Promise(res => setTimeout(res, ms));
 
 export async function getUsers() {
-  await wait(10000);
+  await wait(1000);
 
   return [
     {
